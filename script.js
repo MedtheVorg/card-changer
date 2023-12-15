@@ -38,7 +38,7 @@ function start() {
 
   document.querySelectorAll(".controllers .btn").forEach((button, index) => {
     button.textContent = `button-${index + 1}`;
-    button.style.padding = "10px 20px";
+    button.style.padding = "20px 20px";
     button.style.marginRight = "5px";
     button.style.border = "1px solid #333";
     button.style.border = "1px solid #333";
@@ -47,6 +47,7 @@ function start() {
 }
 
 // ------------------------------
+<<<<<<< HEAD
 button_four.addEventListener("mouseover", function() {
     // Add hover style
     button_four.style.backgroundColor = "#23c483";
@@ -78,3 +79,15 @@ button_four.addEventListener('click', () => {
     cardTitle.textContent = 'Welcome Abtal Tech';
     cardTitle.style.cssText = 'color: white'
 })
+
+// ABDO CHANGES BUTTON 5
+function changeColor(){
+    card.style.height = '200px'
+    card.style.width = '500px'
+    card.style.backgroundColor = 'black'
+    card.style.dislay = 'flex'
+    card.style.textAlign = 'center'
+    cardTitle.style.color = 'White'
+    cardTitle.innerHTML = `Modifications`
+}
+
