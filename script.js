@@ -46,8 +46,7 @@ function start() {
   });
 }
 
-// ------------------------------
-<<<<<<< HEAD
+
 button_four.addEventListener("mouseover", function() {
     // Add hover style
     button_four.style.backgroundColor = "#23c483";
@@ -90,4 +89,3 @@ function changeColor(){
     cardTitle.style.color = 'White'
     cardTitle.innerHTML = `Modifications`
 }
-
