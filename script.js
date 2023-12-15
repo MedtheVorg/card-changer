@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Add a click event listener to the button
     btn3.addEventListener("click", function () {
       // Your logic for button with class "btn-3" goes here
-      alert("Button 3 clicked!"); // Example: Display an alert
+      alert("Button 3 is clicked!"); // Example: Display an alert
   
       // You can also modify the content of the card or perform other actions
       var cardContent = document.querySelector(".content");
