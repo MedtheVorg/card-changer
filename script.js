@@ -15,3 +15,14 @@ const button_five = document.querySelectorAll(".controllers .btn")[4];
 // write yout button event listener here
 // you are free to change the card design as you like
 // ------------------------------
+
+// ABDO CHANGES BUTTON 5
+function changeColor(){
+    card.style.height = '200px'
+    card.style.width = '500px'
+    card.style.backgroundColor = 'black'
+    card.style.dislay = 'flex'
+    card.style.textAlign = 'center'
+    cardTitle.style.color = 'White'
+    cardTitle.innerHTML = `Modifications`
+}
