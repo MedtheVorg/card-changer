@@ -47,3 +47,13 @@ function start() {
 }
 
 // ------------------------------
+// ABDO CHANGES BUTTON 5
+function changeColor(){
+  card.style.height = '200px'
+  card.style.width = '500px'
+  card.style.backgroundColor = 'black'
+  card.style.dislay = 'flex'
+  card.style.textAlign = 'center'
+  cardTitle.style.color = 'White'
+  cardTitle.innerHTML = `Modifications`
+}
